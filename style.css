@@ -1,0 +1,128 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body and font styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+/* About Me Section */
+#about {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Hobbies Section */
+#hobbies {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+#hobbies ul {
+  list-style-type: none;
+}
+
+#hobbies li {
+  margin-bottom: 20px;
+}
+
+#hobbies img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  font-size: 1em;
+}
